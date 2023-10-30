@@ -1,3 +1,5 @@
+import { calculator } from '../src/calculator';
+
 test('Add 24 and 22 to equal 46', () => {
   expect(calculator.add(24, 22)).toBe(46);
 });
