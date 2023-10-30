@@ -1,3 +1,5 @@
+import caesarCipher from '../src/caesar-cipher';
+
 test('Encrypt "pray at dawn" to equal "tvec ex hear" with a shift of 4.', () => {
   expect(caesarCipher('pray at dawn', 4)).toBe('tvec ex hear');
 });
