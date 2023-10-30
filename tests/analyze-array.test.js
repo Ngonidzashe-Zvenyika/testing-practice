@@ -1,3 +1,5 @@
+import analyzeArray from '../src/analyze-array';
+
 test('Given [1,8,3,4,2,6] determine that 4 is the average', () => {
   expect(analyzeArray([1, 8, 3, 4, 2, 6]).average).toBe(4);
 });
